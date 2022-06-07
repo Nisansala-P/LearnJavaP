@@ -5,14 +5,13 @@ public class logic {
 		System.out.println("Hello");
 		System.out.println("Nisansala");
 	}
+	int num1;
+	int num2;
 
-	public int sum() {
-		
-		int i = 74;
-		int i2 = 36;
-		int sum = i+i2;
-		
+	//public void sum() {}
+	
+	public logic(int num1,int num2) {
+		int sum = num1+num2;
 		System.out.println(sum);
-	return sum;	
 	}
 }
